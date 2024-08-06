@@ -1,9 +1,9 @@
 # HNCL-DTI
-This is source code for "A Heterogeneous Network-based Contrastive Learning
+This is the source code for "A Heterogeneous Network-based Contrastive Learning
 Approach for Predicting Drug-Target Interaction"
 
 ## Dataset
-The dataset can be downloaded from https://github.com/Zora-LM/HGAN-DTI.
+The dataset can be downloaded from baiduyun (link：https://pan.baidu.com/s/1R1lpNFzVNlywy4T_001gjw code：4jkh)
 
 ## Environment
 
