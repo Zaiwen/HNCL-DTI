@@ -18,14 +18,7 @@ from info_nce import InfoNCE
 
 
 ap = argparse.ArgumentParser("HNCL-DTI")
-ap.add_argument('--feats-type', type=int, default=2,
-                help='Type of the node features used. ' +
-                        '0 - loaded features; ' +
-                        '1 - only target node features (zero vec for others); ' +
-                        '2 - only target node features (id vec for others); ' +
-                        '3 - all id vec. Default is 2;' +
-                    '4 - only term features (id vec for others);' + 
-                    '5 - only term features (zero vec for others).')
+ap.add_argument('--feats-type', type=int, default=2)
 ap.add_argument('--hidden_dim', type=int, default=16, help='Dimension of the node hidden state. Default is 64.')
 ap.add_argument('--num_heads', type=int, default=2, help='Number of the attention heads. Default is 8.')
 ap.add_argument('--epoch', type=int, default=300, help='Number of epochs.')
